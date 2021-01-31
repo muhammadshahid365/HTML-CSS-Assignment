@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/contacts-container.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/advantages.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/portfolio.css">
+    <title>Company portfolio</title>
+    <script src="https://kit.fontawesome.com/252024c128.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contacts-container">
+
+        <span class="sm-icons">
+            <a href="#">
+                <span class="sm-icon">
+                    <i class="fa fa-facebook"></i>
+                </span>
+            </a>
+            <a href="#">
+                <span class="sm-icon">
+                    <i class="fa fa-twitter"></i>
+                </span>
+            </a>
+            <a href="#">
+                <span class="sm-icon">
+                    <i class="fa fa-google"></i>
+                </span>
+            </a>
+            <a href="#">
+                <span class="sm-icon">
+                    <i class="fa fa-linkedin"></i>
+                </span>
+            </a>
+            <a href="#">
+                <span class="sm-icon">
+                    <i class="fa fa-youtube"></i>
+                </span>
+            </a>
+        </span>
+
+        <span class="contact-us">
+            <span class="numbers">
+                <i class="fa fa-phone" style="color: coral;"></i>
+                +92(304)386-6719 &nbsp;&nbsp;
+                <i class="fa fa-phone" style="color: coral;"></i>
+                +92(317)011-3001
+            </span>
+            &nbsp;&nbsp;<button class="btn btn-primary" type="submit">CALL ME BACK</button>
+        </span>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="nav nav-underline">
+
+                <li><a href="#" class="nav-link">WHY US</a></li>
+                <li><a href="#" class="nav-link">ABOUT</a></li>
+                <li><a href="#" class="nav-link">SERVICES</a></li>
+                <li><a href="#" class="nav-link active">PORTFOLIO</a></li>
+                <li><a href="#" class="nav-link">PROCESS</a></li>
+                <li><a href="#" class="nav-link">REIEWS</a></li>
+                <li><a href="#" class="nav-link">OUR SKILLS</a></li>
+                <li><a href="#" class="nav-link">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
+                <img src="./img/background.jpg" alt="background">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
+                <img src="./img/background.jpg" alt="background">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>
+                <img src="./img/background.jpg" alt="background">
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <div class="advantages">
+        <div class="adv-caption">
+            <h1>OUR <span style="color: coral;">ADVANTAGES</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic laboriosam itaque, eum repudiandae
+                voluptas. Vero architecto asperiores aperiam earum, veniam quibusdam ducimus placeat provident.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa fa-lightbulb"></i>
+                        </div>
+                        <h6>INNOVATION</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque. Ullam dolor eum
+                            sit autem!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa fa-thumbs-up"></i>
+                        </div>
+                        <h6>QUALITY</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque. Ullam dolor eum
+                            sit autem!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa fa-clock"></i>
+                        </div>
+                        <h6>EXPERIENCE</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque. Ullam dolor eum
+                            sit autem!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <h6>HAPPY CLIENTS</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque. Ullam dolor eum
+                            sit autem!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <h6>SUPPORT</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque. Ullam dolor eum
+                            sit autem!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <img src="./img/about.jpeg" alt="">
+        <div class="about-text">
+            <h1>ABOUT <span style="color: coral;">US</span></h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta exercitationem nostrum accusantium
+                        quo, mollitia cum quis! Ab delectus impedit ut asperiores exercitationem deserunt facere maxime,
+                        praesentium, ipsa in voluptas corrupti.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod natus quibusdam impedit quasi,
+                        nesciunt magnam perferendis, obcaecati explicabo assumenda porro quidem neque saepe tenetur
+                        temporibus et molestias a, corporis dolorem dolorum repudiandae vitae quo. Ut, libero. Rerum
+                        illum itaque quod totam maxime quia ipsa laudantium?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat vitae dicta error tempora
+                        temporibus sint, aut impedit necessitatibus voluptatum?</p>
+                    <br>
+                    <button class="btn btn-primary"
+                        style="border: rgb(255, 223, 80); background-color: #f1c40f; color: black;">
+                        READ MORE
+
+                    </button>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-services">
+        <br><br>
+        <h1>OUR <span style="color: coral; ">SERVICES</span></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus officiis expedita odio facere vero
+            recusandae, sapiente corporis at quas nemo omnis, ipsam consequatur? Quas repudiandae facilis maxime
+            excepturi doloribus assumenda!</p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="my-card2">
+                        <span class="icon"><i class="fa fa-star"></i></span>
+                        <br><br>
+                        <h6>WEB DESIGN</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia similique ex, porro
+                            officiis laudantium. Tempore voluptates nihil velit natus!</p>
+                        <br>
+                        <a href="#" style="color: #75f10f; font-size: larger;">read more</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card2">
+                        <span class="icon"><i class="fa fa-star"></i></span>
+                        <br><br>
+                        <h6>WEB DESIGN</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia similique ex, porro
+                            officiis laudantium. Tempore voluptates nihil velit natus!</p>
+                        <br>
+                        <a href="#" style="color: #75f10f; font-size: larger;">read more</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card2">
+                        <span class="icon"><i class="fa fa-star"></i></span>
+                        <br><br>
+                        <h6>WEB DESIGN</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia similique ex, porro
+                            officiis laudantium. Tempore voluptates nihil velit natus!</p>
+                        <br>
+                        <a href="#" style="color: #75f10f; font-size: larger;">read more</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="my-card2">
+                        <span class="icon"><i class="fa fa-star"></i></span>
+                        <br><br>
+                        <h6>WEB DESIGN</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit mollitia similique ex, porro
+                            officiis laudantium. Tempore voluptates nihil velit natus!</p>
+                        <br>
+                        <a href="#" style="color: #75f10f; font-size: larger;">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <h1><span style="color: white;">OUR</span> <span style="color: coral;">PORTFOLIO</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis illo consequatur autem veniam deleniti
+            rem molestias nisi, quis nam voluptatum recusandae provident quasi esse fuga.</p>
+        <div class="navbar navbar-default">
+            <ul class="nav nav-underline">
+
+                <li><a href="#" class="nav-link">WEB DESIGN</a></li>
+                <li><a href="#" class="nav-link">GRAPHIC DESIGN</a></li>
+                <li><a href="#" class="nav-link">BRANDING</a></li>
+                <li><a href="#" class="nav-link active">LOGO</a></li>
+                <li><a href="#" class="nav-link">MARKETING</a></li>
+                <li><a href="#" class="nav-link">ADVERTISMENT</a></li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="./img/logos.png" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+</html>

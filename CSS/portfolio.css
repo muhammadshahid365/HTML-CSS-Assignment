@@ -1,0 +1,40 @@
+.portfolio{
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.portfolio h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio p{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: small;
+    line-height: 15px;
+}
+
+.portfolio a{
+    color: white;
+    font-weight: 500;
+}
+
+.portfolio .nav{
+    margin: 20px auto 10px auto;
+}
+
+.portfolio .active{
+    color: yellowgreen;
+}
+
+
+.portfolio .image{
+    width: fit-content;
+    margin: auto;
+}

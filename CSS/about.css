@@ -1,0 +1,64 @@
+.about-us img{
+    position: relative;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 450px;
+}
+
+.about-us h1{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0 ;
+}
+.about-us p{
+    color: white;
+}
+
+.about-us .about-text{
+    width: fit-content;
+    margin: auto;
+}
+
+/* Our Services styles */
+
+.our-services h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.our-services > p{
+    width: 50%;
+    margin: 30px auto 50px auto;
+    line-height: 18px;
+    text-align: center;
+}
+
+.our-services .icon{
+    background-color: #f1c40f;
+    color: red;
+    font-size: 30px;
+    padding: 10px 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 120px;
+    
+}
+
+.our-services .my-card2{
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.my-card2 p{
+    width: 80%;
+    margin: auto;
+    font-size: small;
+    line-height: 15px;
+    color: gray;
+}
+

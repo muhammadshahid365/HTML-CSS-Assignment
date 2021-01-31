@@ -1,0 +1,48 @@
+.contacts-container{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-container .sm-icons{
+    width: auto;    
+    margin: auto 20px;
+}
+
+.contacts-container .sm-icon{
+    
+    background-color: gray;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.contacts-container .sm-icons a{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.contacts-container .sm-icon:hover{
+    background-color: indigo;
+}
+
+.contacts-container .contact-us{
+    margin: auto 20px;
+}
+
+.contact-us .numbers{
+    color: white;
+    font-weight: bold;
+}
+
+.contact-us button{
+    background-color: yellowgreen;
+    color: black;
+    border: chartreuse;
+    font-weight: bold;
+}
+
+.contact-us button:hover{
+    background-color: rgb(131, 182, 31);
+}
